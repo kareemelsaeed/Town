@@ -1,0 +1,34 @@
+*{
+    /* margin: 0;
+    padding: 0;
+    box-sizing: border-box; */
+    font-family: 'Bree Serif', serif;
+}
+
+.main{
+    background-image: url(../img/the-town-bg-01.4fb1a448e9b51ceb326a.jpg);
+    background-size: cover;
+    background-position: 50%;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+
+}
+
+.work{
+    background: linear-gradient(180deg,rgb(239, 144, 144),rgb(93, 93, 137));
+}
+
+.end{
+    background-image: url(../img/the-town-bg-02.d00ce147e8572c7e554e.jpg);
+    background-size: cover;
+    background-position: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+@media screen and (max-width:600px) {
+    .copyright{
+        font-size: 13px;
+    }
+}
